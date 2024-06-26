@@ -1,0 +1,9 @@
+MOUNT
+CREATE	file_fs
+OPEN	file_fs
+WRITE	DATA	abcdefghijklmnopqrstuvwxyz
+WRITE FILE myfile
+SEEK 0
+READ	4096	FILE	myfile
+CLOSE
+UMOUNT
