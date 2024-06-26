@@ -1,0 +1,2 @@
+scp -r * msauer@pc12.cs.ucdaivs.edu:~/Project_3/p3/libfs
+ssh msauer@pc12.cs.ucdavis.edu
